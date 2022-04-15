@@ -27,9 +27,6 @@ const DefaultRoute = '/home'
 
 const Home = lazy(() => import('../../views/Home'))
 const SecondPage = lazy(() => import('../../views/SecondPage'))
-// const Login = lazy(() => import('../../views/Login'))
-// const Register = lazy(() => import('../../views/Register'))
-// const ForgotPassword = lazy(() => import('../../views/ForgotPassword'))
 const Error = lazy(() => import('../../views/Error'))
 
 // ** Merge Routes
@@ -47,28 +44,6 @@ const Routes = [
     path: '/second-page',
     element: <SecondPage />
   },
-    /*
-  {
-    path: '/login',
-    element: <Login />,
-    meta: {
-      layout: 'blank'
-    }
-  },
-  {
-    path: '/register',
-    element: <Register />,
-    meta: {
-      layout: 'blank'
-    }
-  },
-  {
-    path: '/forgot-password',
-    element: <ForgotPassword />,
-    meta: {
-      layout: 'blank'
-    }
-  },*/
   {
     path: '/error',
     element: <Error />,
