@@ -1,5 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react'
 
+import * as API from './services/launches'
+
 // ** Router Import
 import Router from './router/Router'
 
