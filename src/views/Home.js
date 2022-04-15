@@ -22,7 +22,7 @@ const Home = () => {
               <CardBody>
                 <CardText>{launch.launch_year}</CardText>
                 <CardText>{launch.details}</CardText>
-                <CardLink href={launch.links.article_link}>Article</CardLink>
+                <CardLink href={launch.links.article_link} target="_blank">Article</CardLink>
               </CardBody>
             </Card>
         )) }
